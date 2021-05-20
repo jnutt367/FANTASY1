@@ -1,6 +1,6 @@
 let animation = gsap.timeline()
+    .to("#orb", { x: -330, position: "relative" }, 2)
     .to("#sky", { duration: 3, position: "relative", fill: "black", ease: "elastic" }, 3)
-    .fromTo("#svg2", { opacity: 0 }, { position: "relative", opacity: 0 })
     .to(".cls1", { position: "relative", duration: 2, x: -330 })
     .to(".cls2", { duration: 3, position: "relative", x: 0, fill: "aqua" }, 4)
 
@@ -11,8 +11,8 @@ let animation = gsap.timeline()
     .fromTo("#cloud5", { x: 1500 }, { x: -600, repeat: -1, duration: 4 })
 
 .to("#orb", { x: -330, position: "relative" }, 7)
-    .to(".cls1", { duration: 3, x: 0, position: "relative", ease: "power1.out", fill: "orange" }, 9)
-    .to("#sky", { duration: 1, position: "relative", fill: "skyblue", ease: "elastic" }, 5)
+    .to(".cls1", { duration: 3, x: 0, position: "relative", ease: "power1.out", fill: "orange" }, 8)
+    .to("#sky", { duration: 1, position: "relative", fill: "skyblue", ease: "elastic" }, 7)
     .to("#bird1", { duration: 3, repeat: -1, fill: "#fff", ease: "none", x: 100, y: -600, }, 1)
     .to("#bird2", { duration: 3, repeat: -1, fill: "white", x: 900, ease: "none", y: -600, }, .5)
     .to("#bird3", { duration: 3, repeat: -1, fill: "grey", x: -700, ease: "none", y: -600, }, .5)
