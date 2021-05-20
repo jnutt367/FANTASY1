@@ -1,0 +1,17 @@
+gsap.to("#sky", { duration: 3, position: "relative", fill: "black", ease: "elastic" }, 3)
+gsap.fromTo("#svg2", { opacity: 0 }, { position: "relative", opacity: 0 })
+gsap.to(".cls1", { position: "relative", duration: 2, x: -330 })
+gsap.to(".cls2", { duration: 3, position: "relative", x: 0, fill: "aqua" }, 4)
+
+gsap.fromTo("#cloud", { x: 2000 }, { x: -2000, repeat: -1, duration: 10 })
+gsap.fromTo("#cloud2", { x: -2000 }, { x: 2000, repeat: -1, duration: 8 })
+gsap.fromTo("#cloud3", { x: 1500 }, { x: -600, repeat: -1, duration: 6 })
+gsap.fromTo("#cloud4", { x: 1500 }, { x: -600, repeat: -1, duration: 5 })
+gsap.fromTo("#cloud5", { x: 1500 }, { x: -600, repeat: -1, duration: 4 })
+
+gsap.to("#orb", { x: -330, position: "relative" }, 7)
+gsap.to(".cls1", { duration: 3, x: 0, position: "relative", ease: "power1.out", fill: "orange" }, 9)
+gsap.to("#sky", { duration: 1, position: "relative", fill: "skyblue", ease: "elastic" }, 5)
+gsap.to("#bird1", { duration: 3, fill: "white", ease: "none", y: -600, }, 1.7)
+gsap.to("#bird2", { duration: 3, fill: "white", x: -300, ease: "none", y: -600, }, 1.5)
+gsap.to("#bird3", { duration: 3, fill: "white", x: -100, ease: "none", y: -600, }, 2)
